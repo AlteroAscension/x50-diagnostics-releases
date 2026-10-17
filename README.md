@@ -6,12 +6,11 @@ Download APKs and ESP firmware from [Releases](https://github.com/AlteroAscensio
 This repository contains public release notes and curated distributable files;
 application and firmware source development is in a separate private repository.
 
-First target: ESP32 / WeAct CAN485 over USB or Bluetooth; ELM327 reader support.
-ESP32-C3 firmware and BLE support are planned, not yet released as working.
+Supported adapters: ESP32 / WeAct CAN485 over USB or Bluetooth; ELM327 over Bluetooth.
 Each release lists precisely what was built, tested and still needs hardware
-validation. Current preview: Android0.2.0 / ESP32 firmware0.3.0. App installation
+validation. Current preview: Android0.2.1 / ESP32 firmware0.3.1. App installation
 and navigation were checked on a non-root phone; new arbitrary coding writes
-still require vehicle validation. See [0.2.0 notes](RELEASE_NOTES_0.2.0.md).
+still require vehicle validation. See [0.2.1 notes](RELEASE_NOTES_0.2.1.md).
 
 The application includes a USB firmware installer. Use only an image matching
 your board; disconnect CAN before flashing. Initial bundled target: ESP32 8MB,
