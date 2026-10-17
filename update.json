@@ -1,0 +1,38 @@
+{
+  "schema": "x50.diagnostics.release.v1",
+  "version": "0.1.0",
+  "versionCode": 1,
+  "channel": "preview",
+  "hardware_verified": false,
+  "firmware": {
+    "version": "0.2.0",
+    "board": "weact-can485-esp32-8mb",
+    "chip": "esp32"
+  },
+  "artifacts": [
+    {
+      "name": "x50-diagnostics-0.1.0.apk",
+      "bytes": 803524,
+      "sha256": "654eec60c0fd0daf51bfb49612f7451eb00d29022309e51a7a89e189eb757cd0",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.1.0-preview/x50-diagnostics-0.1.0.apk"
+    },
+    {
+      "name": "esp32-can485-0.2.0-factory.bin",
+      "bytes": 1188096,
+      "sha256": "88ad31ff079ee2a70b88fbf863f5048f9e7e938cabcfe7b6dad5c110ce054d8c",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.1.0-preview/esp32-can485-0.2.0-factory.bin"
+    },
+    {
+      "name": "app-manifest.json",
+      "bytes": 221,
+      "sha256": "8b5ec0d58551bfe14b240fb2aa3604a11edf48bd82342e022349801faf10b2a8",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.1.0-preview/app-manifest.json"
+    },
+    {
+      "name": "firmware-manifest.json",
+      "bytes": 305,
+      "sha256": "7d9469dc9ae6ed9c8e61a6fa0291e9b884ba5d2234ba9722522223e733e63236",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.1.0-preview/firmware-manifest.json"
+    }
+  ]
+}
