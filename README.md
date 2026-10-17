@@ -9,9 +9,9 @@ application and firmware source development is in a separate private repository.
 Supported adapters: ESP32 / WeAct CAN485 over USB or Bluetooth; ELM327 over Bluetooth
 (reading and experimental writes requiring vehicle validation).
 Each release lists precisely what was built, tested and still needs hardware
-validation. Current preview: Android0.2.3 / ESP32 firmware0.3.1. App installation
+validation. Current preview: Android0.2.4 / ESP32 firmware0.3.1. App installation
 and navigation were checked on a non-root phone; new arbitrary coding writes
-still require vehicle validation. See [0.2.3 notes](RELEASE_NOTES_0.2.3.md).
+still require vehicle validation. See [0.2.4 notes](RELEASE_NOTES_0.2.4.md).
 
 The application includes a USB firmware installer. Use only an image matching
 your board; disconnect CAN before flashing. Initial bundled target: ESP32 8MB,
