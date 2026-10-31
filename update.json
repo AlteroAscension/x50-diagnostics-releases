@@ -1,38 +1,38 @@
 {
   "schema": "x50.diagnostics.release.v1",
-  "version": "0.4.2",
-  "versionCode": 48,
+  "version": "0.4.3",
+  "versionCode": 49,
   "channel": "preview",
   "hardware_verified": false,
   "firmware": {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "board": "weact-can485-esp32-8mb",
     "chip": "esp32"
   },
   "artifacts": [
     {
-      "name": "x50-diagnostics-0.4.2.apk",
+      "name": "x50-diagnostics-0.4.3.apk",
       "bytes": 1127264,
-      "sha256": "6495bd9c82f38ebf4625146facaf95db0bbc1597615d152b314e33b649b9c33e",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.2-preview/x50-diagnostics-0.4.2.apk"
+      "sha256": "e650a42df429aace1cb9e88e4ea65ea2e39b71498c842c2c5a636be8c024cf6e",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.3-preview/x50-diagnostics-0.4.3.apk"
     },
     {
-      "name": "esp32-can485-0.8.2-factory.bin",
-      "bytes": 1315072,
-      "sha256": "7d68fc48fd8985290ff6a2f327b7159609cfd6d309fabaeacb0769acb4e2a3bb",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.2-preview/esp32-can485-0.8.2-factory.bin"
+      "name": "esp32-can485-0.8.3-factory.bin",
+      "bytes": 1315344,
+      "sha256": "6afa6d048d1f8f773747d084cebec5c459092790310aeb6d14e44c239d501d8d",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.3-preview/esp32-can485-0.8.3-factory.bin"
     },
     {
       "name": "app-manifest.json",
       "bytes": 222,
-      "sha256": "9befb89b9dd724e77141f99f5b1a7ab518319b3de8be36225357076f37e55af8",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.2-preview/app-manifest.json"
+      "sha256": "635a90ecbb93a62bf87808d5ac18b00285074361e37e1136c545af5be8c1ca5f",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.3-preview/app-manifest.json"
     },
     {
       "name": "firmware-manifest.json",
       "bytes": 398,
-      "sha256": "4631e540c4c77d0c27dda7388d8007ec586b124b3369645a81e145e6b7d8d85c",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.2-preview/firmware-manifest.json"
+      "sha256": "a35690a25711fc16138709316d4ad9f1b7390fa583472223561f7803abc5bcdd",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.3-preview/firmware-manifest.json"
     }
   ]
 }
