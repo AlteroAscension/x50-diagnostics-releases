@@ -1,4 +1,4 @@
-# X50 Diagnostics вЂ” downloads
+# X50 Diagnostics - downloads
 
 Android diagnostics for Belgee X50 / Geely SX11. No root required.
 
@@ -9,7 +9,7 @@ application and firmware source development is in a separate private repository.
 Supported adapters: ESP32 / WeAct CAN485 over USB or Bluetooth; ELM327 over Bluetooth
 (reading and experimental writes requiring vehicle validation).
 Each release lists precisely what was built, tested and still needs hardware
-validation. Current preview: **Android 0.4.9 / ESP32 firmware 0.8.9**.
+validation. Current preview: **Android 0.4.10 / ESP32 firmware 0.8.9**.
 Late CAN-clock filename updates now run after recording stops and its queue drains.
 DTC lists support up to2048 bytes through ESP and ELM. Optional monitor losses
 are separate from critical replies; idle read-session recovery preserves counters
@@ -17,7 +17,8 @@ and never clears an unknown mutation outcome. The opt-in HU policy remains
 up to3 attempts with3-second pauses; CAN opens in normal mode with ACK.
 Builds, full host models, exact bundled-image ROM model and both Android emulator
 interfaces passed. The new build still requires physical SD/vehicle validation.
-See [0.4.9 notes and installation](RELEASE_NOTES_0.4.9.md).
+0.4.10 fixes the Android application name; firmware0.8.9 is unchanged.
+See [0.4.10 notes and installation](RELEASE_NOTES_0.4.10.md).
 
 The application includes a USB firmware installer. Use only an image matching
 your board; disconnect CAN and remove microSD before flashing. Bundled target: ESP32 8MB,
