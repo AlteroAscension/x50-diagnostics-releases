@@ -9,16 +9,15 @@ application and firmware source development is in a separate private repository.
 Supported adapters: ESP32 / WeAct CAN485 over USB or Bluetooth; ELM327 over Bluetooth
 (reading and experimental writes requiring vehicle validation).
 Each release lists precisely what was built, tested and still needs hardware
-validation. Current preview: **Android 0.4.8 / ESP32 firmware 0.8.8**.
-Autonomous CAN-to-microSD recording with an optional HU-autostart probe:
-up to3 attempts with3-second pauses, fresh native0x284 templates and gates,
-state/TX/activity journal and cancellation on changed conditions or unknown TX.
-CAN opens in normal mode with ACK. The HU feature defaults off.
-Includes the pressure-aware SD writer from0.8.6 and engine version/experimental
-explicit-range memory reads from0.4.5. Existing memory reserves are retained.
+validation. Current preview: **Android 0.4.9 / ESP32 firmware 0.8.9**.
+Late CAN-clock filename updates now run after recording stops and its queue drains.
+DTC lists support up to2048 bytes through ESP and ELM. Optional monitor losses
+are separate from critical replies; idle read-session recovery preserves counters
+and never clears an unknown mutation outcome. The opt-in HU policy remains
+up to3 attempts with3-second pauses; CAN opens in normal mode with ACK.
 Builds, full host models, exact bundled-image ROM model and both Android emulator
-interfaces passed. Physical SD/overnight operation, HU boot and backlight remain
-unverified. See [0.4.8 notes and installation](RELEASE_NOTES_0.4.8.md).
+interfaces passed. The new build still requires physical SD/vehicle validation.
+See [0.4.9 notes and installation](RELEASE_NOTES_0.4.9.md).
 
 The application includes a USB firmware installer. Use only an image matching
 your board; disconnect CAN and remove microSD before flashing. Bundled target: ESP32 8MB,
