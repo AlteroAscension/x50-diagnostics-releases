@@ -1,7 +1,7 @@
 {
   "schema": "x50.diagnostics.release.v1",
-  "version": "0.4.12",
-  "versionCode": 58,
+  "version": "0.4.13",
+  "versionCode": 59,
   "channel": "preview",
   "hardware_verified": false,
   "firmware": {
@@ -11,40 +11,40 @@
   },
   "artifacts": [
     {
-      "name": "x50-diagnostics-0.4.12.apk",
-      "bytes": 1549310,
-      "sha256": "05b5f35ee430090375ebf989973a816561f07a69bd9ebce8c5fa52e2c89fad6f",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/x50-diagnostics-0.4.12.apk"
+      "name": "x50-diagnostics-0.4.13.apk",
+      "bytes": 1565694,
+      "sha256": "39c8778cefa76262ac54d4b0f8038f94218e76632121a3baa528ca7b2c4ab9a7",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/x50-diagnostics-0.4.13.apk"
     },
     {
       "name": "esp32-can485-0.8.10-factory.bin",
       "bytes": 1326704,
       "sha256": "3a297217da790f208d4445f73e10ce2937ae9a069248fb16fa7f1add4f62806e",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/esp32-can485-0.8.10-factory.bin"
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/esp32-can485-0.8.10-factory.bin"
     },
     {
       "name": "app-manifest.json",
       "bytes": 223,
-      "sha256": "550a45f051862f50a08576b356f449908bf6c2835764b08a31d146c913c711da",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/app-manifest.json"
+      "sha256": "fd397964f70e3457da268247615dee6ee38ade51f757ddf22023d8e1ed9b800a",
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/app-manifest.json"
     },
     {
       "name": "firmware-manifest.json",
       "bytes": 716,
       "sha256": "493323bccd7c42fd375e7e69cc68af79ff1677c0e7dd6ff26d5ede31cad7100d",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/firmware-manifest.json"
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/firmware-manifest.json"
     },
     {
       "name": "esp32c5-canfd-0.1.0-factory.bin",
       "bytes": 695232,
       "sha256": "36bae4ac4ed179405541f56ea35f25cbd564384c005533066eb1687f673e1e23",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/esp32c5-canfd-0.1.0-factory.bin"
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/esp32c5-canfd-0.1.0-factory.bin"
     },
     {
       "name": "c5-firmware-manifest.json",
       "bytes": 448,
       "sha256": "29bb0636bd6fea30c504c039572c800f681c454c2db54c9a2b37b19e2c11a517",
-      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.12-preview/c5-firmware-manifest.json"
+      "url": "https://github.com/AlteroAscension/x50-diagnostics-releases/releases/download/v0.4.13-preview/c5-firmware-manifest.json"
     }
   ],
   "additional_firmware": [

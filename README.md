@@ -10,7 +10,10 @@ Supported adapters: ESP32 / WeAct CAN485 over USB or Classic Bluetooth SPP;
 WeAct CANFD ESP32-C5 over native USB CDC or BLE UART; ELM327 over Bluetooth
 (reading and experimental writes requiring vehicle validation).
 Each release lists precisely what was built, tested and still needs hardware
-validation. Current preview: **Android 0.4.12 / CAN485 0.8.10 / C5 0.1.0**.
+validation. Current preview: **Android 0.4.13 / CAN485 0.8.10 / C5 0.1.0**.
+SX11 G5 TPMS sensor IDs can be read and manually written for selected wheels;
+the full 16-byte value is read back, with an explicit recovery step after an
+unknown result. Vehicle validation is pending. See [0.4.13 notes](RELEASE_NOTES_0.4.13.md).
 Late CAN-clock filename updates now run after recording stops and its queue drains.
 DTC lists support up to2048 bytes through ESP and ELM. Optional monitor losses
 are separate from critical replies; idle read-session recovery preserves counters
